@@ -6,7 +6,7 @@
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109340954-f909cb80-7869-11eb-8d58-ad937e833254.png">
 </div>
 
-Das iOS Scriptable Widget, inspiriert bei Google Pixel's "at a Glance" Widget.
+Das iOS Scriptable Widget, inspiriert von Google Pixel's "at a Glance" Widget.
 
 
 ## Funktionen
@@ -31,7 +31,7 @@ Zuerst musst du Scriptable aus dem AppStore herunterladen (https:\/\/apps.apple.
 - 3: deinen Namen (für die Begrüßung)
 - Batterieanzeige in Prozent %
 
-Danach musst du ein Profil für die Schriftart installieren:
+Danach musst du noch ein Profil für die Schriftart installieren:
 
 <div>
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109345180-0b870380-7870-11eb-9e84-ad8a206f8b3a.png">
@@ -42,13 +42,7 @@ Danach musst du ein Profil für die Schriftart installieren:
 
 Nachdem du das erlegt hast ist dein neues Widget soweit fertig 😄!
 
-First, you need to install both Pixel Widget and Pixel Launcher.
-Widget thing has the main code, and Launcher lets you customize the widget.
-Then, Tap Widget, the main code, once to verify you've installed the right one. It'll show you an Alert, but it's okay! and You can tap Launcher to start setup. When you tap on Newbie mode, It'll guide you through setting the widget in detail. Here's the checklist you need to do:
-- **Enter Openweather API Key and City ID** - to get live weather
-- **Edit Preferences** in Launcher Script - so easy cause it has own setting sheet!
-- **Install Font Profile** - the Google Font, Product Sans!
-- Set your **widget's wallpaper** - You can edit your wallpaper in Preference sheet
+## Transparentes Widget
 
 Since the widget doesn't have its own wallpaper maker, It's recommended that you use mzeryck's transparent wallpaper script to make one!
 Then, add your wallpaper in File Bookmarks. Finally, change *Background Mode* Field to *your Bookmarked Name*, finishing your wallpaper work!
