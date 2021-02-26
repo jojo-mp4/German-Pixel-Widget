@@ -5,8 +5,7 @@
 // Contact developer for question, or reporting abuse
 // You can use Discord to contact @unvsDev!
 
-
-//German Fork by jojo-mp4
+// German Fork by jojo-mp4
 
 const version = 2.3
 const plName = Script.name()
@@ -124,11 +123,11 @@ if(!(fm.fileExists(progPath))) {
 // Main Menu
 let plAlert = new Alert()
 plAlert.title = welcomemode ? "Welcome to Pixel Widget!" : "Pixel Launcher"
-let menuOptions = ["Edit Preferences", "Manage Plugin", "General Settings"]
+let menuOptions = ["Widget anpassen", "Plugins", "Allgemeine Einstellungen"]
 for(const option of menuOptions) {
   plAlert.addAction(option)
 }
-plAlert.addCancelAction("Done")
+plAlert.addCancelAction("fertig")
 let response = await plAlert.presentAlert()
 if(response == 1){
   pluginmode = 1
