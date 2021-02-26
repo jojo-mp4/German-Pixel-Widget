@@ -9,22 +9,26 @@
 iOS Scriptable Widget, inspired by Google Pixel's "at a Glance" widget.
 
 
-[Download](https://github.com/xkfdhr/pixel-widget/releases)
+## Funktionen
+- Ikonisches Widget im Pixel or Siri Style
+- Kommende Ereignisse aus dem Kalender
+- Live Wetter mit epischen Icons! 🌈
+- Batterieanzeige in Prozent %
+- Countdown bis zu einem bestimmten  Datum
+- Pixel Launcher zum einfachen Anpassen
+- Und mehr!
 
-[How-To Guide on Notion(KR)](https://www.notion.so/Pixel-Widget-2-0-7e80cc7c72e54ec0bf28353df81cf073)
+## Einrichtung
+Zuerst musst du Scriptable aus dem AppStore herunterladen (https:\/\/apps.apple.com\/de\/app\/scriptable\/id1405459188)
+Danach kopierst du jeweils den "Pixel Launcher" und den "Pixel Widget" Code in ein neues Script in Scrptable.
+Als nächstes tippst du auf den Haupt-Code "Pixel Launcher", um das Widget anpassen.
+Dort gehtst
 
-[Reddit Release Post](https://www.reddit.com/r/Scriptable/comments/kk1kgi/meet_pixel_widget_feel_the_pixel_fits_your_iphone/)
+<img width="233" src="https://user-images.githubusercontent.com/75497322/109343236-4e93a780-786d-11eb-87ca-9223e6979b72.png">
+<img width="233" src="https://user-images.githubusercontent.com/75497322/109343326-784cce80-786d-11eb-8535-eae6ad9733b7.png">
 
-## Features
-- Iconic widget layout, Pixel or Siri style.
-- Providing information on upcoming events
-- Live Weather with epic icons! 🌈
-- battery information with percentage
-- D-Day count which is automatically checked
-- Pixel Launcher for easier adaptation
-- And more!
+\n\n\nWidget thing has the main code, and Launcher lets you customize the widget.\nThen, Tap Widget, the main code, once to verify you've installed the right one. It'll show you an Alert, but it's okay! and You can tap Launcher to start setup.
 
-## Install Guide
 First, you need to install both Pixel Widget and Pixel Launcher.
 Widget thing has the main code, and Launcher lets you customize the widget.
 Then, Tap Widget, the main code, once to verify you've installed the right one. It'll show you an Alert, but it's okay! and You can tap Launcher to start setup. When you tap on Newbie mode, It'll guide you through setting the widget in detail. Here's the checklist you need to do:
