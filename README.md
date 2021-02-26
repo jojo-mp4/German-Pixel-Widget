@@ -5,6 +5,7 @@
 <img width="233" src="https://user-images.githubusercontent.com/63099769/103135806-67ad9a00-46fe-11eb-80ca-7efd4d050a12.png">
 <img width="233" src="https://user-images.githubusercontent.com/63099769/103135805-654b4000-46fe-11eb-841a-ef9e851696fa.png">
 <img width="233" src="https://user-images.githubusercontent.com/63099769/103135808-6a0ff400-46fe-11eb-83fa-797b0b487904.png">
+<img widre="233" sec="https://github.com/jojo-mp4/pixel-widget/blob/main/027AFC15-1A91-48F0-9D3B-7F763BD6CDDD.png">
 </div>
 
 iOS Scriptable Widget, inspired by Google Pixel's "at a Glance" widget.
