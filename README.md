@@ -10,12 +10,12 @@ Das iOS Scriptable Widget, inspiriert von Google Pixel's "at a Glance" Widget.
 
 
 ## Funktionen
-- Ikonisches Widget im Pixel oder Siri Style
-- Kommende Ereignisse aus dem Kalender
-- Live Wetter mit epischen Icons! 🌈
+- Stylisches Widget im Pixel Design
+- Anzeigen von Termine aus dem Kalender
+- Wetter und Temperatur mit epischen Icons! 🌈
 - Batterieanzeige in Prozent %
-- Countdown bis zu einem bestimmten Datum
-- Pixel Launcher zum einfachen Anpassen des Widgets
+- Countdown zu einem bestimmten Datum
+- Einfaches Anpassen des Widgets mit dem Pixel Launcher
 - Und mehr!
 
 ## Einrichtung
@@ -26,9 +26,11 @@ Zuerst musst du Scriptable aus dem AppStore herunterladen (https:\/\/apps.apple.
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109343326-784cce80-786d-11eb-8535-eae6ad9733b7.png">
 </div>
 
-- 1: dein  API key von https://openweathermap.org/
-- 2: deine City ID von https://openweathermap.org/
-- 3: dein Namen (für die Begrüßung)
+
+
+- 1: dein  **API key** von https://openweathermap.org/
+- 2: deine **City ID** von https://openweathermap.org/
+- 3: dein **Namen** (für die Begrüßung)
 
 <div>
 </div>
@@ -42,6 +44,8 @@ Danach musst du noch ein Profil für die Schriftart installieren:
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109345210-16419880-7870-11eb-9b3b-c597aa078b33.png">
 </div>
 
+
+
 Nachdem du das erlegt hast ist dein neues Widget soweit fertig 😄!
 
 Ich hoffe du hast viel Spaß mit dem Wedget, bei Fragen und Verbesserungen, kannst du mir einfach schreiben.
@@ -49,7 +53,7 @@ Ich hoffe du hast viel Spaß mit dem Wedget, bei Fragen und Verbesserungen, kann
 ## Transparentes Widget
 Um einen transparenten Hintergrund für das Widet zu verwenden benötigst du noch den folgenden Script: (https://gist.github.com/mzeryck/3a97ccd1e059b3afa3c6666d27a496c9).
 
-Dann gehe zu *Pixel Launcher -> Widget anpassen -> Background Mode und wähle "Fixed - One wallpaper" aus. Jetzt musst du noch bei "Select Light Background" deine Bilddatei auswählen, die du mit dem oberen Widget erstellt hast.
+Dann gehe zu **Pixel Launcher -> Widget anpassen -> Background Mode** und wähle **"Fixed - One wallpaper"** aus. Jetzt musst du noch bei **"Select Light Background"** deine Bilddatei auswählen, die du mit dem oberen Widget erstellt hast.
 
 ## Lizenz
 - Das Original wurde von Minseo Kang (unvsDev) erstellt
