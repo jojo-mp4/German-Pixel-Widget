@@ -55,8 +55,8 @@ Since the widget doesn't have its own wallpaper maker, It's recommended that you
 Then, add your wallpaper in File Bookmarks. Finally, change *Background Mode* Field to *your Bookmarked Name*, finishing your wallpaper work!
 
 ## License
--erstellt von unvsDev (Minseo Kang)
--originaler Download https://github.com/xkfdhr/pixel-widget/releases
+- erstellt von unvsDev (Minseo Kang)
+- originaler Download https://github.com/xkfdhr/pixel-widget/releases
 
 - **Unauthorized redistribution of this project is strictly prohibited.**
 - For further information, please contact me with our Discord.
