@@ -6,7 +6,7 @@
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109340954-f909cb80-7869-11eb-8d58-ad937e833254.png">
 </div>
 
-iOS Scriptable Widget, inspired by Google Pixel's "at a Glance" widget.
+Das iOS Scriptable Widget, inspiriert bei Google Pixel's "at a Glance" Widget.
 
 
 ## Funktionen
@@ -55,6 +55,9 @@ Since the widget doesn't have its own wallpaper maker, It's recommended that you
 Then, add your wallpaper in File Bookmarks. Finally, change *Background Mode* Field to *your Bookmarked Name*, finishing your wallpaper work!
 
 ## License
+-erstellt von unvsDev (Minseo Kang)
+-originaler Download https://github.com/xkfdhr/pixel-widget/releases
+
 - **Unauthorized redistribution of this project is strictly prohibited.**
 - For further information, please contact me with our Discord.
 - Please report any abuse or development contribution.
@@ -62,7 +65,5 @@ Then, add your wallpaper in File Bookmarks. Finally, change *Background Mode* Fi
 ## Official Discord
 [Discord Link](https://discord.gg/BCP2S7BdaC)
 
-Enjoying the widget? You can donate to the developer on our Discord! 🎁
+Gefällt dir das Widget? Du kannst den Entwicklern auf ihrern Discord spenden! 🎁
 
-
-Thanks for Reading! 💜
