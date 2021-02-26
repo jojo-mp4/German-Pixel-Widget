@@ -1,7 +1,7 @@
 # <img width="250" src="https://user-images.githubusercontent.com/63099769/103135730-b1e24b80-46fd-11eb-9624-55926815f4b6.png">
 > **Feel the Pixel, Fits your iPhone.**
 <div>
-<img width="233" src="https://user-images.githubusercontent.com/63099769/103135807-68dec700-46fe-11eb-9fd6-54af1b9e0d42.png">
+<img width="233" src="https://user-images.githubusercontent.com/75497322/109340922-eee7cd00-7869-11eb-847e-62ec5819d84b.png">
 <img width="233" src="https://user-images.githubusercontent.com/63099769/103135806-67ad9a00-46fe-11eb-80ca-7efd4d050a12.png">
 <img width="233" src="https://user-images.githubusercontent.com/63099769/103135805-654b4000-46fe-11eb-841a-ef9e851696fa.png">
 <img width="233" sec="https://i.ibb.co/z5QgfM5/PNG-Bild.png">
