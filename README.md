@@ -35,10 +35,10 @@ Dort gehtst du auf "Widget Anpassen". Danach fülle folgende Sachen aus wie auf 
 Danach musst du noch die Schriftart installieren:
 
 <div>
-<img width="233" src="https://user-images.githubusercontent.com/75497322/109345180-0b870380-7870-11eb-9e84-ad8a206f8b3a.png"
-<img width="233" src="https://user-images.githubusercontent.com/75497322/109345190-0f1a8a80-7870-11eb-8b41-352243483a76.png"
-<img width="233" src="https://user-images.githubusercontent.com/75497322/109346401-ed220780-7871-11eb-999a-6891a9c59686.png"
-<img width="233" src="https://user-images.githubusercontent.com/75497322/109345210-16419880-7870-11eb-9b3b-c597aa078b33.png"
+<img width="233" src="https://user-images.githubusercontent.com/75497322/109345180-0b870380-7870-11eb-9e84-ad8a206f8b3a.png">
+<img width="233" src="https://user-images.githubusercontent.com/75497322/109345190-0f1a8a80-7870-11eb-8b41-352243483a76.png">
+<img width="233" src="https://user-images.githubusercontent.com/75497322/109346401-ed220780-7871-11eb-999a-6891a9c59686.png">
+<img width="233" src="https://user-images.githubusercontent.com/75497322/109345210-16419880-7870-11eb-9b3b-c597aa078b33.png">
 </div>
 
 Nachdem du das erlegt hast ist dein neues Widget soweit fertig!
