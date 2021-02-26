@@ -31,6 +31,7 @@ Zuerst musst du Scriptable aus dem AppStore herunterladen (https:\/\/apps.apple.
 - 3: dein Namen (für die Begrüßung)
 
 <div>
+</div>
 
 Danach musst du noch ein Profil für die Schriftart installieren:
 
