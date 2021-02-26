@@ -28,9 +28,9 @@ Zuerst musst du Scriptable aus dem AppStore herunterladen (https:\/\/apps.apple.
 
 
 
-- 1: dein  **API key** von https://openweathermap.org/
-- 2: deine **City ID** von https://openweathermap.org/
-- 3: dein **Namen** (für die Begrüßung)
+- **1:** dein  **API key** von https://openweathermap.org/
+- **2:** deine **City ID** von https://openweathermap.org/
+- **3:** dein **Namen** (für die Begrüßung)
 
 <div>
 </div>
