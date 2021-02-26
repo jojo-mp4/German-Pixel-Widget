@@ -19,9 +19,9 @@ Das iOS Scriptable Widget, inspiriert bei Google Pixel's "at a Glance" Widget.
 - Und mehr!
 
 ## Einrichtung
-Zuerst musst du Scriptable aus dem AppStore herunterladen (https:\/\/apps.apple.com\/de\/app\/scriptable\/id1405459188)
-Danach kopierst du jeweils den "Pixel Launcher" und den "Pixel Widget" Code in ein neues Script in Scriptable.
-Als nächstes tippst du auf den Haupt-Code "Pixel Launcher", um das Widget anpassen.
+<Zuerst musst du Scriptable aus dem AppStore herunterladen (https:\/\/apps.apple.com\/de\/app\/scriptable\/id1405459188).>
+<Danach kopierst du jeweils den "Pixel Launcher" und den "Pixel Widget" Code in ein neues Script in Scriptable.>
+Als nächstes tippst du auf den Haupt-Code "Pixel Launcher", um den Code auszuführen.
 Als nächstes tippst du auf den Haupt-Code "Pixel Launcher", um das Widget anpassen.
 Since the widget doesn't have its own wallpaper maker, It's recommended that you use mzeryck's transparent wallpaper script to make one!
 Then, add your wallpaper in File Bookmarks. Finally, change *Background Mode* Field to *your Bookmarked Name*, finishing your wallpaper work!
@@ -63,16 +63,10 @@ Then, Tap Widget, the main code, once to verify you've installed the right one. 
 Since the widget doesn't have its own wallpaper maker, It's recommended that you use mzeryck's transparent wallpaper script to make one!
 Then, add your wallpaper in File Bookmarks. Finally, change *Background Mode* Field to *your Bookmarked Name*, finishing your wallpaper work!
 
-## License
-- erstellt von unvsDev (Minseo Kang)
+## Lizenz
+- Das Original wurde von Minseo Kang (unvsDev) erstellt
 - originaler Download https://github.com/xkfdhr/pixel-widget/releases
+- [Discord Link](https://discord.gg/BCP2S7BdaC)
 
-- **Unauthorized redistribution of this project is strictly prohibited.**
-- For further information, please contact me with our Discord.
-- Please report any abuse or development contribution.
 
-## Official Discord
-[Discord Link](https://discord.gg/BCP2S7BdaC)
-
-Gefällt dir das Widget? Du kannst den Entwicklern auf ihrern Discord spenden! 🎁
 
