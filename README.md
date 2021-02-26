@@ -10,12 +10,12 @@ Das iOS Scriptable Widget, inspiriert bei Google Pixel's "at a Glance" Widget.
 
 
 ## Funktionen
-- Ikonisches Widget im Pixel or Siri Style
+- Ikonisches Widget im Pixel oder Siri Style
 - Kommende Ereignisse aus dem Kalender
 - Live Wetter mit epischen Icons! 🌈
 - Batterieanzeige in Prozent %
-- Countdown bis zu einem bestimmten  Datum
-- Pixel Launcher zum einfachen Anpassen
+- Countdown bis zu einem bestimmten Datum
+- Pixel Launcher zum einfachen Anpassen des Widgets
 - Und mehr!
 
 ## Einrichtung
@@ -23,9 +23,9 @@ Zuerst musst du Scriptable aus dem AppStore herunterladen (https:\/\/apps.apple.
 Danach kopierst du jeweils den "Pixel Launcher" und den "Pixel Widget" Code in ein neues Script in Scriptable.
 Als nächstes tippst du auf den Haupt-Code "Pixel Launcher", um das Widget anpassen.
 Dort gehtst du auf "Widget Anpassen". Danach fülle folgende Sachen aus wie auf Foto 2 zu sehen:
-1: dein  API key von https://openweathermap.org/
-2: deine City ID von https://openweathermap.org/
-3: deinen Namen (für die Begrüßung)
+-1: dein  API key von https://openweathermap.org/
+-2: deine City ID von https://openweathermap.org/
+-3: deinen Namen (für die Begrüßung)
 
 <div>
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109343236-4e93a780-786d-11eb-87ca-9223e6979b72.png">
