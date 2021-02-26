@@ -43,7 +43,7 @@ if(config.runsInApp){
   // darkMode = !(Color.dynamic(Color.white(),Color.black()).red)
   fm.writeString(aprPath, (darkMode == true ? 1 : 0).toString())
 } else if(!fm.fileExists(aprPath)){
-  throw new Error("Please launch Pixel Widget once.")
+  throw new Error("Starte bitte das Pixel Widget erstmal")
 } else {
   darkMode = parseInt(fm.readString(aprPath))
 }
@@ -54,7 +54,7 @@ if(fm.fileExists(prefPath)){
   fm.downloadFileFromiCloud(prefPath)
   prefData0 = fm.readString(prefPath)
 } else {
-  throw new Error("Please set up your widget.")
+  throw new Error("Richte bitte das Widget ein.")
 }
 let prefData = JSON.parse(prefData0)
 
@@ -247,7 +247,7 @@ try{
   weatherarry = weatherJSON.weather;
   iconData = weatherarry[0].icon;
 }catch(e){
-  throw new Error("Openweather API Key is invalid.");
+  throw new Error("Der Openweather API Key ist ungültig.");
 }
 
 const weathername = weatherarry[0].main;
@@ -275,9 +275,9 @@ var holidaysByKey = {
 
 var holidaysByDate = {
    // month,date: greeting
-   "1,1": "Happy " + (today.getFullYear()).toString() + "!",
+   "1,1": "Gutes Neues " + (today.getFullYear()).toString() + "!",
    "10,31": "Happy Halloween!",
-   "12,25": "Merry Christmas!"
+   "12,25": "Frohe Weihnachten!"
 }
 
 var holidayKey = (today.getMonth() + 1).toString() + "," +  (Math.ceil(today.getDate() / 7)).toString() + "," + (today.getDay()).toString();
@@ -352,9 +352,9 @@ if (futureEvents.length != 0 && prefData.event == "true") { // has event
     var distance = target - now
     var eventMinute = Math.floor(distance / (1000 * 60) % 60)
     var eventHour = Math.floor(distance / (1000 * 60) / 60)
-
+    
     // Show ahead time; First Line
-    let eventLabel = pwidget.addText(futureEvent.title + ' in ' + eventHour + ' hr ' + eventMinute + ' min')
+    let eventLabel = pwidget.addText(futureEvent.title + ' in ' + eventHour + ' St. ' + eventMinute + ' min. ')
     eventLabel.font = new Font(FONT_NAME_BOLD, TEXT_SIZE);
     eventLabel.textColor = TEXT_COLOR
     eventLabel.url = "calshow://"
@@ -727,16 +727,16 @@ function countDayPrecise(name, target) {
   gap = gap / (1000 * 60 * 60 * 24)
   var count = Math.ceil(gap)
   
-  if(gap == 0) { return name + " is Today" }
-  else if(gap == 1) { return gap + " day to " + name }
-  else if(gap > 0) { return gap + " days to " + name }
-  else { return (gap*-1)+1 + " days from " + name }
+  if(gap == 0) { return "heute ist" + name }
+  else if(gap == 1) { return gap + " Tag bis " + name }
+  else if(gap > 0) { return gap + " Tage bis " + name }
+  else { return (gap*-1)+1 + " Tage nach " + name }
 }
 
 // Refresh Text
 if(REFRESH_VIEW == "true") {
   pwidget.addSpacer(3);
-  let refreshText = pwidget.addText('Last Updated at ' + formatTime(today));
+  let refreshText = pwidget.addText('Letztes Update ' + formatTime(today));
   refreshText.font = new Font(FONT_NAME, 13);
   refreshText.textColor = TEXT_COLOR;
   refreshText.textOpacity = (0.5);
