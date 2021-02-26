@@ -4,7 +4,6 @@
 <img width="233" src="https://user-images.githubusercontent.com/63099769/103135807-68dec700-46fe-11eb-9fd6-54af1b9e0d42.png">
 <img width="233" src="https://user-images.githubusercontent.com/63099769/103135806-67ad9a00-46fe-11eb-80ca-7efd4d050a12.png">
 <img width="233" src="https://user-images.githubusercontent.com/63099769/103135805-654b4000-46fe-11eb-841a-ef9e851696fa.png">
-<img width="233" src="https://user-images.githubusercontent.com/63099769/103135808-6a0ff400-46fe-11eb-83fa-797b0b487904.png">
 <img width="233" sec="https://github.com/jojo-mp4/pixel-widget/blob/main/00352AEE-84A3-4F75-B3DB-18FDA2F9E2CD.png">
 </div>
 
