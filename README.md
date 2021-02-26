@@ -23,11 +23,12 @@ Zuerst musst du Scriptable aus dem AppStore herunterladen (https:\/\/apps.apple.
 Danach kopierst du jeweils den "Pixel Launcher" und den "Pixel Widget" Code in ein neues Script in Scrptable.
 Als nächstes tippst du auf den Haupt-Code "Pixel Launcher", um das Widget anpassen.
 Dort gehtst
-
+<div>
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109343236-4e93a780-786d-11eb-87ca-9223e6979b72.png">
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109343326-784cce80-786d-11eb-8535-eae6ad9733b7.png">
+</div>
 
-\n\n\nWidget thing has the main code, and Launcher lets you customize the widget.\nThen, Tap Widget, the main code, once to verify you've installed the right one. It'll show you an Alert, but it's okay! and You can tap Launcher to start setup.
+Widget thing has the main code, and Launcher lets you customize the widget.\nThen, Tap Widget, the main code, once to verify you've installed the right one. It'll show you an Alert, but it's okay! and You can tap Launcher to start setup.
 
 First, you need to install both Pixel Widget and Pixel Launcher.
 Widget thing has the main code, and Launcher lets you customize the widget.
