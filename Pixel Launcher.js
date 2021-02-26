@@ -1,12 +1,12 @@
-// Variables used by Scriptable.
-// These must be at the very top of the file. Do not edit.
-// icon-color: deep-blue; icon-glyph: cannabis;
 // Pixel Launcher v2.3 - by unvsDev
 // for Setting up Pixel Widget
 
 // Unauthorized Redistribute is Strictly prohibited.
 // Contact developer for question, or reporting abuse
 // You can use Discord to contact @unvsDev!
+
+
+//German Fork by jojo-mp4
 
 const version = 2.3
 const plName = Script.name()
