@@ -32,8 +32,8 @@ Zuerst musst du Scriptable aus dem AppStore herunterladen (https:\/\/apps.apple.
 - **2:** deine **City ID** von https://openweathermap.org/
 - **3:** dein **Namen** (für die Begrüßung)
 
-<div>
-</div>
+
+
 
 Danach musst du noch ein Profil für die Schriftart installieren:
 
