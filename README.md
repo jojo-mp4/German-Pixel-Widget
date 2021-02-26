@@ -44,6 +44,8 @@ Danach musst du noch ein Profil für die Schriftart installieren:
 
 Nachdem du das erlegt hast ist dein neues Widget soweit fertig 😄!
 
+Ich hoffe du hast viel Spaß mit dem Wedget, bei Fragen und Verbesserungen, kannst du mir einfach schreiben.
+
 ## Transparentes Widget
 Um einen transparenten Hintergrund für das Widet zu verwenden benötigst du noch den folgenden Script: (https://gist.github.com/mzeryck/3a97ccd1e059b3afa3c6666d27a496c9). Dann gehe zu *Pixel Launcher -> Widget anpassen -> Background Mode und wähle "Fixed - One wallpaper" aus. Jetzt musst du noch bei "Select Light Background" deine Bilddatei auswählen, die du mit dem oberen Widget erstellt hast.
 
