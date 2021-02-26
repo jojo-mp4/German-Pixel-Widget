@@ -19,7 +19,7 @@ Das iOS Scriptable Widget, inspiriert von Google Pixel's "at a Glance" Widget.
 - Und mehr!
 
 ## Einrichtung
-Zuerst musst du Scriptable aus dem AppStore herunterladen (https:\/\/apps.apple.com\/de\/app\/scriptable\/id1405459188). Danach kopierst du jeweils den "Pixel Launcher" und den "Pixel Widget" Code in ein neues Script in Scriptable. Als nächstes tippst du auf den Haupt-Code "Pixel Launcher", um den Code auszuführen. Drücke dann auf den Button "Widget anpassen" und folge den Schritten auf den Bildern:
+Zuerst musst du Scriptable aus dem AppStore herunterladen (https:\/\/apps.apple.com\/de\/app\/scriptable\/id1405459188). Danach kopierst du jeweils den Code "Pixel Launcher" und den "Pixel Widget" in ein neues Script in Scriptable. Als nächstes tippst du auf den Haupt-Code "Pixel Launcher", um den Code auszuführen. Drücke dann auf den Button "Widget anpassen" und folge den Schritten auf den Bildern:
 
 <div>
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109343236-4e93a780-786d-11eb-87ca-9223e6979b72.png">
@@ -48,10 +48,10 @@ Danach musst du noch ein Profil für die Schriftart installieren:
 
 Nachdem du das erlegt hast ist dein neues Widget soweit fertig 😄!
 
-Ich hoffe du hast viel Spaß mit dem Wedget, bei Fragen und Verbesserungen, kannst du mir einfach schreiben.
+Ich hoffe du hast viel Spaß mit dem Widget, bei Fragen und Verbesserungen, kannst du mir einfach schreiben.
 
 ## Transparentes Widget
-Um einen transparenten Hintergrund für das Widet zu verwenden benötigst du noch den folgenden Script: (https://gist.github.com/mzeryck/3a97ccd1e059b3afa3c6666d27a496c9).
+Um den Widget einen transparenten Hintergrund hinzuzufügen, benötigst du noch den folgenden Script in Scripable: (https://gist.github.com/mzeryck/3a97ccd1e059b3afa3c6666d27a496c9).
 
 Dann gehe zu **Pixel Launcher -> Widget anpassen -> Background Mode** und wähle **"Fixed - One wallpaper"** aus. Jetzt musst du noch bei **"Select Light Background"** deine Bilddatei auswählen, die du mit dem oberen Widget erstellt hast.
 
