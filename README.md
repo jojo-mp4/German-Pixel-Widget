@@ -19,22 +19,12 @@ Das iOS Scriptable Widget, inspiriert bei Google Pixel's "at a Glance" Widget.
 - Und mehr!
 
 ## Einrichtung
-<Zuerst musst du Scriptable aus dem AppStore herunterladen (https:\/\/apps.apple.com\/de\/app\/scriptable\/id1405459188).>
-<Danach kopierst du jeweils den "Pixel Launcher" und den "Pixel Widget" Code in ein neues Script in Scriptable.>
-Als nächstes tippst du auf den Haupt-Code "Pixel Launcher", um den Code auszuführen.
-Als nächstes tippst du auf den Haupt-Code "Pixel Launcher", um das Widget anpassen.
-Since the widget doesn't have its own wallpaper maker, It's recommended that you use mzeryck's transparent wallpaper script to make one!
-Then, add your wallpaper in File Bookmarks. Finally, change *Background Mode* Field to *your Bookmarked Name*, finishing your wallpaper work!
+Zuerst musst du Scriptable aus dem AppStore herunterladen (https:\/\/apps.apple.com\/de\/app\/scriptable\/id1405459188). Danach kopierst du jeweils den "Pixel Launcher" und den "Pixel Widget" Code in ein neues Script in Scriptable. Als nächstes tippst du auf den Haupt-Code "Pixel Launcher", um den Code auszuführen. Drücke dann auf den Button "Widget anpassen" und folge den Schritten auf den Bildern:
 
-
-
-Zuerst musst du Scriptable aus dem AppStore herunterladen (https:\/\/apps.apple.com\/de\/app\/scriptable\/id1405459188)
-Danach kopierst du jeweils den "Pixel Launcher" und den "Pixel Widget" Code in ein neues Script in Scriptable.
-Als nächstes tippst du auf den Haupt-Code "Pixel Launcher", um das Widget anpassen.
-Als nächstes tippst du auf den Haupt-Code "Pixel Launcher", um das Widget anpassen.
--1: dein  API key von https://openweathermap.org/
--2: deine City ID von https://openweathermap.org/
--3: deinen Namen (für die Begrüßung)
+- 1: dein  API key von https://openweathermap.org/
+- 2: deine City ID von https://openweathermap.org/
+- 3: deinen Namen (für die Begrüßung)
+- Batterieanzeige in Prozent %
 
 <div>
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109343236-4e93a780-786d-11eb-87ca-9223e6979b72.png">
