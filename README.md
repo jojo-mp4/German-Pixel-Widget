@@ -2,10 +2,8 @@
 > **Feel the Pixel, Fits your iPhone.**
 <div>
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109340922-eee7cd00-7869-11eb-847e-62ec5819d84b.png">
-<img width="233" src="https://user-images.githubusercontent.com/63099769/103135806-67ad9a00-46fe-11eb-80ca-7efd4d050a12.png">
-<img width="233" src="https://user-images.githubusercontent.com/63099769/103135805-654b4000-46fe-11eb-841a-ef9e851696fa.png">
-<img width="233" sec="https://i.ibb.co/z5QgfM5/PNG-Bild.png">
-
+<img width="233" src="https://user-images.githubusercontent.com/75497322/109340946-f6a77180-7869-11eb-8f2b-94161738ec4f.png">
+<img width="233" src="https://user-images.githubusercontent.com/75497322/109340954-f909cb80-7869-11eb-8d58-ad937e833254.png">
 </div>
 
 iOS Scriptable Widget, inspired by Google Pixel's "at a Glance" widget.
