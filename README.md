@@ -20,15 +20,28 @@ iOS Scriptable Widget, inspired by Google Pixel's "at a Glance" widget.
 
 ## Einrichtung
 Zuerst musst du Scriptable aus dem AppStore herunterladen (https:\/\/apps.apple.com\/de\/app\/scriptable\/id1405459188)
-Danach kopierst du jeweils den "Pixel Launcher" und den "Pixel Widget" Code in ein neues Script in Scrptable.
+Danach kopierst du jeweils den "Pixel Launcher" und den "Pixel Widget" Code in ein neues Script in Scriptable.
 Als nächstes tippst du auf den Haupt-Code "Pixel Launcher", um das Widget anpassen.
-Dort gehtst
+Dort gehtst du auf "Widget Anpassen". Danach fülle folgende Sachen aus wie auf Foto 2 zu sehen:
+1: dein  API key von https://openweathermap.org/
+2: deine City ID von https://openweathermap.org/
+3: deinen Namen (für die Begrüßung)
+
 <div>
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109343236-4e93a780-786d-11eb-87ca-9223e6979b72.png">
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109343326-784cce80-786d-11eb-8535-eae6ad9733b7.png">
 </div>
 
-Widget thing has the main code, and Launcher lets you customize the widget.\nThen, Tap Widget, the main code, once to verify you've installed the right one. It'll show you an Alert, but it's okay! and You can tap Launcher to start setup.
+Danach musst du noch die Schriftart installieren:
+
+<div>
+<img width="233" src="https://user-images.githubusercontent.com/75497322/109345180-0b870380-7870-11eb-9e84-ad8a206f8b3a.png"
+<img width="233" src="https://user-images.githubusercontent.com/75497322/109345190-0f1a8a80-7870-11eb-8b41-352243483a76.png"
+<img width="233" src="https://user-images.githubusercontent.com/75497322/109346401-ed220780-7871-11eb-999a-6891a9c59686.png"
+<img width="233" src="https://user-images.githubusercontent.com/75497322/109345210-16419880-7870-11eb-9b3b-c597aa078b33.png"
+</div>
+
+Nachdem du das erlegt hast ist dein neues Widget soweit fertig!
 
 First, you need to install both Pixel Widget and Pixel Launcher.
 Widget thing has the main code, and Launcher lets you customize the widget.
