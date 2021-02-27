@@ -7,7 +7,7 @@
 // Contact developer for question, or reporting abuse
 // You can use Discord to contact @unvsDev!
 
-// German Fork by jojo-mp4
+// German Fork by jojo-mp4 v1.5
 
 const version = 2.3
 const name = Script.name()
@@ -23,14 +23,14 @@ var progPath = fm.joinPath(fDir, "plPlugin.txt")
 
 const plName = JSON.parse(fm.readString(namePath))
 
-var minVer = parseFloat(await new Request("https://github.com/unvsDev/pixel-widget/raw/main/VERSION").loadString())
+ var minVer = parseFloat(await new Request("https://github.com/unvsDev/pixel-widget/raw/main/VERSION").loadString())
 
-if(minVer > version || plName.update == "true"){
-  var plCode = await new Request("https://github.com/unvsDev/pixel-widget/raw/main/Pixel%20Launcher.js").loadString()
-  fm.writeString(fm.joinPath(fm.documentsDirectory(), plName.name + ".js"), plCode)
+ if(minVer > version || plName.update == "true"){
+   var plCode = await new Request("https://github.com/unvsDev/pixel-widget/raw/main/Pixel%20Launcher.js").loadString()
+   fm.writeString(fm.joinPath(fm.documentsDirectory(), plName.name + ".js"), plCode)
   
-  var code = await new Request("https://github.com/unvsDev/pixel-widget/raw/main/Pixel%20Widget.js").loadString()
-  fm.writeString(fm.joinPath(fm.documentsDirectory(), name + ".js"), code)
+   var code = await new Request("https://github.com/unvsDev/pixel-widget/raw/main/Pixel%20Widget.js").loadString()
+   fm.writeString(fm.joinPath(fm.documentsDirectory(), name + ".js"), code)
   
   return 0
 }
@@ -56,8 +56,8 @@ if(fm.fileExists(prefPath)){
   throw new Error("Richte bitte das Widget ein.")
 }
 let prefData = JSON.parse(prefData0)
-
-let API_WEATHER = prefData.apikey;
+ 
+let API_WEATHER = prefData.apikey; 
 let CITY_WEATHER = prefData.cityid;
 let USERNAME = prefData.username;
 let TEMP_UNIT = prefData.tempunit;
@@ -387,14 +387,14 @@ if (futureEvents.length != 0 && prefData.event == "true") { // has event
     tintIcon(weatherIcon)
 
     // Tempeture Label
-    let tempLabel = hStack.addText(" " + Math.round(curTemp).toString() + TEMP_TEXT)
-    tempLabel.font = new Font(FONT_NAME, 16);
-    tempLabel.textColor = TEXT_COLOR
-    tempLabel.textOpacity = (0.7)
-    tempLabel.centerAlignText()
-
-    tempLabel.url = "https://openweathermap.org/city/" + CITY_WEATHER
-    weatherIcon.url = "https://openweathermap.org/city/" + CITY_WEATHER
+   let tempLabel = hStack.addText(" " + Math.round(curTemp).toString() + TEMP_TEXT)
+     tempLabel.font = new Font(FONT_NAME, 16);
+     tempLabel.textColor = TEXT_COLOR
+     tempLabel.textOpacity = (0.7)
+     tempLabel.centerAlignText()
+     
+     tempLabel.url = "https://openweathermap.org/city/" + CITY_WEATHER
+     weatherIcon.url = "https://openweathermap.org/city/" + CITY_WEATHER
 
     // Show Battery Icon and Percent
     // batteryModule(hStack)
@@ -440,22 +440,22 @@ if (futureEvents.length != 0 && prefData.event == "true") { // has event
     spacerlabel.textOpacity = (0.7)
 
     // Weather Icon
-    let weatherIcon = hStack.addImage(img)
-    weatherIcon.imageSize = new Size(18, 18)
-    weatherIcon.centerAlignImage()
-    tintIcon(weatherIcon)
+     let weatherIcon = hStack.addImage(img)
+      weatherIcon.imageSize = new Size(18, 18)
+     weatherIcon.centerAlignImage()
+     tintIcon(weatherIcon)
 
     // Tempeture Label
-    let tempLabel = hStack.addText(" " + Math.round(curTemp).toString() + TEMP_TEXT)
-    tempLabel.font = new Font(FONT_NAME, 16);
-    tempLabel.textColor = TEXT_COLOR
-    tempLabel.textOpacity = (0.7)
-    tempLabel.centerAlignText()
+     let tempLabel = hStack.addText(" " +  Math.round(curTemp).toString() + TEMP_TEXT)
+     tempLabel.font = new Font(FONT_NAME, 16);
+     tempLabel.textColor = TEXT_COLOR
+     tempLabel.textOpacity = (0.7)
+     tempLabel.centerAlignText()
 
-    hStack.addSpacer()
+     hStack.addSpacer()
     
-    tempLabel.url = "https://openweathermap.org/city/" + CITY_WEATHER
-    weatherIcon.url = "https://openweathermap.org/city/" + CITY_WEATHER
+     tempLabel.url = "https://openweathermap.org/city/" + CITY_WEATHER
+     weatherIcon.url = "https://openweathermap.org/city/" + CITY_WEATHER
 
 } else if (LAYOUT_MODE == "pixel") { // pixel layout
     let hStack = pwidget.addStack()
@@ -472,21 +472,21 @@ if (futureEvents.length != 0 && prefData.event == "true") { // has event
     spacerlabel.textColor = TEXT_COLOR
     
     // Weather Icon
-    let weatherIcon = hStack.addImage(img);
-    weatherIcon.imageSize = new Size(ICON_SIZE, ICON_SIZE);
-    weatherIcon.centerAlignImage()
-    tintIcon(weatherIcon)
+     let weatherIcon = hStack.addImage(img);
+     weatherIcon.imageSize = new Size(ICON_SIZE, ICON_SIZE);
+     weatherIcon.centerAlignImage()
+     tintIcon(weatherIcon)
     
-    hStack.addSpacer(3)
+     hStack.addSpacer(3)
 
     // Tempeture Label
-    let tempLabel = hStack.addText(Math.round(curTemp).toString() + TEMP_TEXT)
-    tempLabel.font = new Font(FONT_NAME, TEXT_SIZE);
-    tempLabel.textColor = TEXT_COLOR
-    tempLabel.centerAlignText()
+     let tempLabel = hStack.addText(Math.round(curTemp).toString() + TEMP_TEXT)
+     tempLabel.font = new Font(FONT_NAME, TEXT_SIZE);
+     tempLabel.textColor = TEXT_COLOR
+     tempLabel.centerAlignText()
 
-    tempLabel.url = "https://openweathermap.org/city/" + CITY_WEATHER
-    weatherIcon.url = "https://openweathermap.org/city/" + CITY_WEATHER
+     tempLabel.url = "https://openweathermap.org/city/" + CITY_WEATHER
+     weatherIcon.url = "https://openweathermap.org/city/" + CITY_WEATHER
 
     hStack.addSpacer()
     
@@ -528,20 +528,20 @@ if (futureEvents.length != 0 && prefData.event == "true") { // has event
     spacerlabel.textOpacity = (0.7)
     
     // Weather Icon
-    let weatherIcon = hStack.addImage(img)
-    weatherIcon.imageSize = new Size(18, 18)
-    weatherIcon.centerAlignImage()
-    tintIcon(weatherIcon)
+     let weatherIcon = hStack.addImage(img)
+     weatherIcon.imageSize = new Size(18, 18)
+     weatherIcon.centerAlignImage()
+     tintIcon(weatherIcon)
 
     // Tempeture Label
-    let tempLabel = hStack.addText(Math.round(curTemp).toString() + TEMP_TEXT)
-    tempLabel.font = new Font(FONT_NAME, 16);
-    tempLabel.textColor = TEXT_COLOR
-    tempLabel.textOpacity = (0.7)
-    tempLabel.centerAlignText()
+     let tempLabel = hStack.addText(Math.round(curTemp).toString() + TEMP_TEXT)
+     tempLabel.font = new Font(FONT_NAME, 16);
+     tempLabel.textColor = TEXT_COLOR
+     tempLabel.textOpacity = (0.7)
+     tempLabel.centerAlignText()
 
-    tempLabel.url = "https://openweathermap.org/city/" + CITY_WEATHER
-    weatherIcon.url = "https://openweathermap.org/city/" + CITY_WEATHER
+     tempLabel.url = "https://openweathermap.org/city/" + CITY_WEATHER
+     weatherIcon.url = "https://openweathermap.org/city/" + CITY_WEATHER
     
     if(prefData.hideb == "false"){
       let borderLabel = hStack.addText("  |  ")
@@ -587,64 +587,6 @@ if(progData.minidday[0].length > 0) {
   cdLabel.textColor = TEXT_COLOR
   cdLabel.textOpacity = 0.8
   cdStack.addSpacer()
-}
-
-if(progData.covidkr1 == true) {
-  const cDir = fm.joinPath(fm.documentsDirectory(), "/coronaAlpha")
-  if(!fm.fileExists(cDir + "/index.js")){fm.createDirectory(cDir)}
-  fm.writeString(cDir + "/index.js", await new Request("https://github.com/unvsDev/corona-alpha/raw/main/exportModule.js").loadString())
-  let cModule = await importModule('/coronaAlpha')
-  await cModule.getData()
-  const currentData = await cModule.getCurrent()
-  const currentCnt = currentData[0]
-  const currentGap = currentData[1]
-  const totalGap = await cModule.getPrevTot()
-  pwidget.addSpacer(3)
-  let cStack = pwidget.addStack()
-  cStack.layoutHorizontally()
-  cStack.addSpacer()
-  let cSymbol = SFSymbol.named("sun.min.fill")
-  let cIcon = cStack.addImage(cSymbol.image)
-  cIcon.tintColor = new Color("#fcbd00")
-  cIcon.imageSize = new Size(11, 11)
-  cStack.addSpacer(3)
-  let cLabel = cStack.addText("코로나19 라이브: " + currentCnt + "명 (" + currentGap + "명) • 어제: " + totalGap + "명")
-  cLabel.font = new Font(FONT_NAME, 12)
-  cLabel.textColor = new Color("#fcbd00")
-  cLabel.url = "https://corona-live.com"
-  cStack.addSpacer()
-}
-
-if(progData.covidkr2 == "Kakao") {
-  pwidget.addSpacer(3)
-  let cStack2 = pwidget.addStack()
-  cStack2.layoutHorizontally()
-  cStack2.addSpacer()
-  let cSymbol2 = SFSymbol.named("arrowshape.turn.up.right.fill")
-  let cIcon2 = cStack2.addImage(cSymbol2.image)
-  cIcon2.tintColor = new Color("#fcbd00")
-  cIcon2.imageSize = new Size(11, 11)
-  cStack2.addSpacer(3)
-  let cLabel2 = cStack2.addText("카카오 QR 체크인")
-  cLabel2.font = new Font(FONT_NAME, 12)
-  cLabel2.textColor = new Color("#fcbd00")
-  cLabel2.url = "kakaotalk://con/web?url=https://accounts.kakao.com/qr_check_in"
-  cStack2.addSpacer()
-} else if(progData.covidkr2 == "Naver") {
-  pwidget.addSpacer(3)
-  let cStack2 = pwidget.addStack()
-  cStack2.layoutHorizontally()
-  cStack2.addSpacer()
-  let cSymbol2 = SFSymbol.named("arrowshape.turn.up.right.fill")
-  let cIcon2 = cStack2.addImage(cSymbol2.image)
-  cIcon2.tintColor = new Color("#fcbd00")
-  cIcon2.imageSize = new Size(11, 11)
-  cStack2.addSpacer(3)
-  let cLabel2 = cStack2.addText("네이버 QR 체크인")
-  cLabel2.font = new Font(FONT_NAME, 12)
-  cLabel2.textColor = new Color("#fcbd00")
-  cLabel2.url = "https://nid.naver.com/login/privacyQR"
-  cStack2.addSpacer()
 }
 
 
