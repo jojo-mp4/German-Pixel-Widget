@@ -330,8 +330,8 @@ for(title in prevData){
       bgPickerAlert.title = "Bearbeite Hintergrund Modus"
       bgPickerAlert.message = "Gerade eingestellt zu " + prevData.bgmode + "."
       bgPickerAlert.addAction("Fixed - Ein Hintergrund")
-      bgPickerAlert.addAction("Auto - Zwei Wallpaperr")
-      bgPickerAlert.addAction("Solid - Eingache Farbe")
+      bgPickerAlert.addAction("Auto - Zwei Hintergründe")
+      bgPickerAlert.addAction("Solid - einfache Farbe")
       bgPickerAlert.addAction("Gradient - Basiert auf der Zeit")
       bgPickerAlert.addCancelAction("Abbrechen")
       let response = await bgPickerAlert.present()
