@@ -23,7 +23,7 @@ Zuerst musst du Scriptable aus dem AppStore herunterladen (https:\/\/apps.apple.
 
 <div>
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109343236-4e93a780-786d-11eb-87ca-9223e6979b72.png">
-<img width="233" src="https://user-images.githubusercontent.com/75497322/109343326-784cce80-786d-11eb-8535-eae6ad9733b7.png">
+<img width="233" src="https://user-images.githubusercontent.com/75497322/109397857-486afd00-7939-11eb-8cb6-5d1dc10938b2.png">
 </div>
 
 
@@ -39,7 +39,7 @@ Danach musst du noch ein Profil für die Schriftart installieren:
 
 <div>
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109345180-0b870380-7870-11eb-9e84-ad8a206f8b3a.png">
-<img width="233" src="https://user-images.githubusercontent.com/75497322/109345190-0f1a8a80-7870-11eb-8b41-352243483a76.png">
+<img width="233" src="https://user-images.githubusercontent.com/75497322/109397879-72bcba80-7939-11eb-9cc8-aa7fbf04265d.png">
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109346401-ed220780-7871-11eb-999a-6891a9c59686.png">
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109345210-16419880-7870-11eb-9b3b-c597aa078b33.png">
 </div>
@@ -53,7 +53,7 @@ Ich hoffe du hast viel Spaß mit dem Widget, bei Fragen und Verbesserungen, kann
 ## Transparentes Widget
 Um den Widget einen transparenten Hintergrund hinzuzufügen, benötigst du noch den folgenden Script in Scripable: (https://gist.github.com/mzeryck/3a97ccd1e059b3afa3c6666d27a496c9).
 
-Dann gehe zu **Pixel Launcher -> Widget anpassen -> Background Mode** und wähle **"Fixed - One wallpaper"** aus. Jetzt musst du noch bei **"Select Light Background"** deine Bilddatei auswählen, die du mit dem oberen Widget erstellt hast.
+Dann gehe zu **Pixel Launcher -> Widget anpassen -> Hintergrund Modus** und wähle **"Fixed - Ein Hintergrund"** aus. Jetzt musst du noch bei **"Hellen Hintergrund auswählen"** deine Bilddatei auswählen, die du mit dem oberen Widget erstellt hast.
 
 ## Lizenz
 - Das Original wurde von Minseo Kang (unvsDev) erstellt
