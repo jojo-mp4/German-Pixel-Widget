@@ -5,7 +5,7 @@
 // Contact developer for question, or reporting abuse
 // You can use Discord to contact @unvsDev!
 
-// German Fork by jojo-mp4
+// German Fork by jojo-mp4 v1.5
 
 const version = 2.3
 const plName = Script.name()
@@ -19,82 +19,82 @@ var progPath = fm.joinPath(fDir, "plPlugin.txt")
 
 fm.writeString(namePath, JSON.stringify({"name":plName, "update":"false"}))
 
-var defaultJSON = {"apikey":"openweatherapikey","cityid":"1835848","layout":"pixel","username":"Sir","tempunit":"metric","locale":"en","textcolor":"#ffffff","textsize":"23","iconcolor":"default","iconsize":"27","font":"Product Sans","fontbold":"Product Sans Medium","spacing":"45","previewmode":"true","previewsize":"medium","refreshview":"false","greeting1":"Good morning","greeting2":"Good afternoon","greeting3":"Good evening","greeting4":"Good night","greeting5":"Time to sleep","greeting0":"Welcome to Pixel Widget","dateformat":"MMMM, EEE dd","quotemode":"false","bgmode":"solid","bglight":"null","bgdark":"null","bgcolor":"#147158","iconrefresh":"true","wallrefresh":"true","refreshrate":"90","ddaymode":"false","ddayname":"Christmas","ddaytarg":"2021-12-25","hideb":"false","event":"true"}
+var defaultJSON = {"apikey":"openweatherapikey","cityid":"1835848","layout":"pixel","username":"Sir","tempunit":"metric","locale":"de","textcolor":"#ffffff","textsize":"23","iconcolor":"default","iconsize":"27","font":"Product Sans","fontbold":"Product Sans Medium","spacing":"45","previewmode":"true","previewsize":"medium","refreshview":"false","greeting1":"Guten Morgen","greeting2":"Guten Nachmittag","greeting3":"Guten Abend","greeting4":"Gute Nacht","greeting5":"Zeit zu schlafen","greeting0":"Willkommen beim Pixel Widget","dateformat":"EEEE, dd. MMMM","quotemode":"false","bgmode":"solid","bglight":"null","bgdark":"null","bgcolor":"#147158","iconrefresh":"true","wallrefresh":"true","refreshrate":"90","ddaymode":"false","ddayname":"Weihnachten","ddaytarg":"2021-12-24","hideb":"false","event":"true"}
 
 var optionName = {
   "apikey": "Openweather API Key",
   "cityid": "City ID",
   "layout": "Widget Layout",
-  "username": "Username",
-  "tempunit": "Temperature Unit",
-  "locale": "Locale",
-  "textcolor": "Text Color",
-  "textsize": "Text Size",
-  "iconcolor": "Icon Color",
-  "iconsize": "Icon Size",
-  "font": "Font",
-  "fontbold": "Bold Font",
-  "spacing": "Top Spacing",
-  "previewmode": "Preview Mode",
-  "previewsize": "Preview Size",
+  "username": "Benutzername",
+  "tempunit": "Temperatureinheit",
+  "locale": "Standort",
+  "textcolor": "Text Farbe",
+  "textsize": "Text Größe",
+  "iconcolor": "Symbol Farbe",
+  "iconsize": "Symbol Größe",
+  "font": "Schriftart",
+  "fontbold": "fette Schriftart",
+  "spacing": "obere Leerzeile",
+  "previewmode": "Widget Vorschau",
+  "previewsize": "Widget Vorschau größe",
   "refreshview": "RefreshView",
-  "greeting1": "Morning Greeting",
-  "greeting2": "Afternoon Greeting",
-  "greeting3": "Evening Greeting",
-  "greeting4": "Night Greeting",
-  "greeting5": "Sleep Greeting",
-  "greeting0": "Fixed Greeting",
-  "dateformat": "Date Format",
-  "quotemode": "Use Fixed Greeting",
-  "bgmode": "Background Mode",
-  "bglight": "Select Light Background",
-  "bgdark": "Select Dark Background",
-  "bgcolor": "Background Color",
-  "iconrefresh": "Always Refresh Weather Icon",
-  "wallrefresh": "Always Refresh Wallpaper",
-  "refreshrate": "Widget Refresh Rate",
-  "ddaymode": "Day Count Mode",
-  "ddayname": "Day Count Name",
-  "ddaytarg": "Day Count Date",
-  "hideb": "Hide Battery Icon",
-  "event": "Show Event"
+  "greeting1": "Morgen Begrüßung",
+  "greeting2": "Nachmittag Begrüßung",
+  "greeting3": "Abend Begrüßung",
+  "greeting4": "Nacht Begrüßung",
+  "greeting5": "Begrüßung zum Schlafen",
+  "greeting0": "feste Begrüßung",
+  "dateformat": "Datum Format",
+  "quotemode": "Benutze feste Begrüßung",
+  "bgmode": "Hintergrund Modus",
+  "bglight": "Hellen Hintergrund auswählen",
+  "bgdark": "Dunklen Hintergrund auswählen",
+  "bgcolor": "Hintergrund Farbe",
+  "iconrefresh": "Immer Wetter Symbol aktualisieren",
+  "wallrefresh": "Immer Hintergrundbild aktualisieren",
+  "refreshrate": "Widget Aktualisierungsrate",
+  "ddaymode": "Countdown an/aus",
+  "ddayname": "Name des Countdowns",
+  "ddaytarg": "Datum des Countdowns",
+  "hideb": "Blende das Batterie Symbol aus",
+  "event": "Zeige Kalendereinträge"
 }
 
 var optionFormat = {
-  "apikey": "For weather service",
-  "cityid": "Fixed Location",
+  "apikey": "API Key hier einfügen",
+  "cityid": "City ID für festen Standort hier einfügen",
   "layout": "(pixel, siri)",
-  "username": "To be shown on your Widget",
+  "username": "Name für die Begrüßung",
   "tempunit": "(metric, imperial)",
-  "locale": "For language customization",
+  "locale": "Für sprachliche Anpassung",
   "textcolor": "(auto, or Color Hex Code)",
-  "textsize": "(Number)",
+  "textsize": "(Zahl)",
   "iconcolor": "(auto, default, or Color Hex Code)",
-  "iconsize": "(Number)",
-  "font": "(Font Name)",
-  "fontbold": "(Font Name)",
-  "spacing": "(Number)",
-  "previewmode": "(true, false) - show preview",
+  "iconsize": "(Zahl)",
+  "font": "(Schriftart Name)",
+  "fontbold": "(Schriftart Name)",
+  "spacing": "(Zahl)",
+  "previewmode": "(true, false) - zeige Vorschau",
   "previewsize": "(small, medium, large)",
-  "refreshview": "(true, false) - show last refreshed time",
-  "greeting1": "(String) - 5am ~ 11am",
-  "greeting2": "(String) - 12pm ~ 5pm",
-  "greeting3": "(String) - 6pm ~ 9pm",
-  "greeting4": "(String) - 10pm ~ 11pm",
-  "greeting5": "(String) - 12am ~ 4am",
-  "greeting0": "(String) - shows when UseFixedGreeting is true",
+  "refreshview": "(true, false) - zeige letzte Aktualisierung",
+  "greeting1": "(String) - 5 Uhr ~ 11 Uhr",
+  "greeting2": "(String) - 12 Uhr ~ 17 Uhr",
+  "greeting3": "(String) - 18 Uhr ~ 21 Uhr",
+  "greeting4": "(String) - 22 Uhr ~ 23 Uhr",
+  "greeting5": "(String) - 24 Uhr ~ 4 Uhr",
+  "greeting0": "(String) - Wird angezeigt wenn feste Begrüßung = true",
   "dateformat": "(Date Format) - show date",
-  "quotemode": "(true, false) - show fixed greeting",
+  "quotemode": "(true, false) - zeige feste Begrüßunge",
   "bgmode": "(auto, fixed, solid, or gradient)",
-  "bglight": "for fixed & auto mode",
-  "bgdark": "for auto mode",
+  "bglight": "für fixed & auto mode",
+  "bgdark": "für auto mode",
   "bgcolor": "(Color Hex Code) - solid mode",
-  "iconrefresh": "(true, false) - recommended option",
-  "wallrefresh": "(true, false) - recommended option",
+  "iconrefresh": "(true, false) - empfohlen true",
+  "wallrefresh": "(true, false) - empfohlen true",
   "refreshrate": "(second)",
   "ddaymode": "(true, false)",
   "ddayname": "(Name)",
-  "ddaytarg": "YYYY-MM-DD",
+  "ddaytarg": "Format: Jahr-Monat-Datum",
   "hideb": "(true, false)",
   "event": "(true, false)"
 }
@@ -109,8 +109,6 @@ if(!(fm.fileExists(prefPath))) {
 }
 
 var orgProgData = {
-    "covidkr1": false,
-    "covidkr2": "Hide",
     "minimemo": "",
     "minidday": ["", ""]
 }
@@ -154,50 +152,19 @@ if(pluginmode){
   let pluginMenu = new UITable()
   pluginMenu.showSeparators = true
   
-  const covidkr1 = new UITableRow()
-  covidkr1.dismissOnSelect = false
-  covidkr1.addText("Covid-19 KR Information", "코로나19 확진자 정보를 간단히 알려줍니다. (KR Local)")
-  pluginMenu.addRow(covidkr1)
-  
-  covidkr1.onSelect = async () => {
-    let pAlert = new Alert()
-    pAlert.title = "Edit Covid-19 KR Information"
-    pAlert.message = "Currently set to \"" + (progData.covidkr1 ? "Show" : "Hide") + "\""
-    pAlert.addAction("Show")
-    pAlert.addAction("Hide")
-    progData.covidkr1 = (await pAlert.present() ? false : true)
-  }
-  
-  const covidkr2 = new UITableRow()
-  covidkr2.dismissOnSelect = false
-  covidkr2.addText("QR Check-in Shortcut", "QR 체크인 바로가기를 보여줍니다. (KR Local)")
-  pluginMenu.addRow(covidkr2)
-  
-  covidkr2.onSelect = async () => {
-    let pAlert = new Alert()
-    pAlert.title = "Edit QR Check-in Shortcut"
-    pAlert.message = "Currently set to \"" + progData.covidkr2 + "\""
-    pAlert.addAction("Show Naver")
-    pAlert.addAction("Show Kakao")
-    pAlert.addAction("Hide")
-    let response = await pAlert.present()
-    if(response == 0) { progData.covidkr2 = "Naver" }
-    else if(response == 1) { progData.covidkr2 = "Kakao" }
-    else { progData.covidkr2 = "Hide" }
-  }
   
   const minimemo = new UITableRow()
   minimemo.dismissOnSelect = false
-  minimemo.addText("Mini Memo", "Type your quote, or short memo!")
+  minimemo.addText("kurze Notiz", "Schreibe einen kurzen Text oder eine Erinnerung")
   pluginMenu.addRow(minimemo)
   
   minimemo.onSelect = async () => {
     let pAlert = new Alert()
-    pAlert.title = "Edit Mini Memo"
-    pAlert.message = (progData.minimemo.length < 1 ? "Mini Memo is turned off currently." : "Mini Memo is set to \"" + progData.minimemo + "\"") + "\nLeave it blank to set to hide."
-    pAlert.addTextField("Type Memo", progData.minimemo)
-    pAlert.addCancelAction("Cancel")
-    pAlert.addAction("Done")
+    pAlert.title = "Bearbeite Notiz"
+    pAlert.message = "\nLasse es leer zum Ausblenden."
+    pAlert.addTextField("Schreibe Notiz", progData.minimemo)
+    pAlert.addCancelAction("Abbrechen")
+    pAlert.addAction("Fertig")
     let response = await pAlert.present()
     if(response != -1) {
       progData.minimemo = pAlert.textFieldValue()
@@ -206,17 +173,17 @@ if(pluginmode){
   
   const minidday = new UITableRow()
   minidday.dismissOnSelect = false
-  minidday.addText("Mini Day Counter", "Celebrate your special day!")
+  minidday.addText("Countdown", "Feiere deinen besonderen Tag mit einem kleinen Countdown!")
   pluginMenu.addRow(minidday)
   
   minidday.onSelect = async () => {
     let pAlert = new Alert()
-    pAlert.title = "Edit Mini Day Counter"
-    pAlert.message = (progData.minidday[0].length < 1 ? "Day counter is turned off currently." : progData.minidday[1] + " is set to " + progData.minidday[0]) + "\nLeave it blank to set to hide, or input Target Date."
-    pAlert.addTextField("YYYY-MM-DD", progData.minidday[0])
-    pAlert.addTextField("Day Count Name", progData.minidday[1])
-    pAlert.addCancelAction("Cancel")
-    pAlert.addAction("Done")
+    pAlert.title = "Bearbeite deinen Countdown"
+    pAlert.message = (progData.minidday[0].length < 1 ? "Der Countdown ist uur Zeit ausgeschaltet." : progData.minidday[1] + " is set to " + progData.minidday[0]) + "\nLasse es leer um es auszublenden, oder schreibe ein Datum hinein."
+    pAlert.addTextField("Format: Jahr-Monat-Tag", progData.minidday[0])
+    pAlert.addTextField("Countdown Name", progData.minidday[1])
+    pAlert.addCancelAction("Abbrechen")
+    pAlert.addAction("Fertig")
     let response = await pAlert.present()
     if(response != -1) {
       progData.minidday[0] = pAlert.textFieldValue(0)
@@ -239,7 +206,7 @@ if(settingmode){
   
   const option1 = new UITableRow()
   option1.dismissOnSelect = false
-  option1.addText("Install Font Profile")
+  option1.addText("Installiere das Schriftart Profil")
   settings.addRow(option1)
   
   option1.onSelect = async () => {
@@ -249,48 +216,33 @@ if(settingmode){
   
   const option2 = new UITableRow()
   option2.dismissOnSelect = true
-  option2.addText("Reset Widget")
+  option2.addText("Widget zurücksetzen")
   settings.addRow(option2)
   
   option2.onSelect = async () => {
     let resetAlert = new Alert()
-    resetAlert.title = "Reset Confirmation"
-    resetAlert.message = "Do you really want to reset all Data? This includes Preference, and Your secure data."
-    resetAlert.addCancelAction("Cancel")
-    resetAlert.addDestructiveAction("Confirm")
+    resetAlert.title = "bestätige Zurücksetzten"
+    resetAlert.message = "Möchtest du wirklich alle Daten löschen? Du kannst sie danach nicht mehr wiederherstellen."
+    resetAlert.addCancelAction("abbrechen")
+    resetAlert.addDestructiveAction("Ja")
     let response = await resetAlert.presentAlert()
     if(response != -1) {
       fm.remove(prefPath)
       return 0
     }
-    await settings.present()
-  }
-  
-  const option3 = new UITableRow()
-  option3.dismissOnSelect = true
-  option3.addText("Request Force Update", "Current: v" + version)
-  settings.addRow(option3)
-  
-  option3.onSelect = async () => {
-    fm.writeString(namePath, JSON.stringify({"name":plName, "update":"true"}))
-    let fuAlert = new Alert()
-    fuAlert.title = "Requested Update"
-    fuAlert.message = "Launch Pixel Widget to begin Update. Your Preferences won't be deleted."
-    fuAlert.addAction("OK")
-    
-    await fuAlert.present()
     
     await settings.present()
   }
   
-  const option4 = new UITableRow()
-  option4.dismissOnSelect = false
-  option4.addText("Github")
-  settings.addRow(option4)
   
-  option4.onSelect = () => {
-    Safari.openInApp("https://github.com/unvsDev/pixel-widget", false)
-  }
+     const option4 = new UITableRow()
+     option4.dismissOnSelect = false
+     option4.addText("Widget Version 1.5 (tippe um Github zu öffnen)")
+     settings.addRow(option4)
+  
+     option4.onSelect = () => {
+       Safari.openInApp("https://github.com/jojo-mp4/german-pixel-widget", false)
+     }
   
   await settings.present()
   
@@ -366,22 +318,22 @@ for(title in prevData){
   option.onSelect = async (number) => {
     if(number != 24 && number != 25 && number != 26){
       let editAlert = new Alert()
-      editAlert.title = "Edit " + optionName[optionList[number]]
+      editAlert.title = "Bearbeite " + optionName[optionList[number]]
       editAlert.addTextField(optionFormat[optionList[number]], prevData[optionList[number]].toString())
-      editAlert.addCancelAction("Cancel")
-      editAlert.addAction("Done")
+      editAlert.addCancelAction("Abbrechen")
+      editAlert.addAction("Fertig")
       if(await editAlert.present() == 0){
         prevData[optionList[number]] = editAlert.textFieldValue()
       }
     } else if(number == 24){
       let bgPickerAlert = new Alert()
-      bgPickerAlert.title = "Edit Wallpaper Mode"
-      bgPickerAlert.message = "Currently set to " + prevData.bgmode + "."
-      bgPickerAlert.addAction("Fixed - One wallpaper")
-      bgPickerAlert.addAction("Auto - Two wallpaper")
-      bgPickerAlert.addAction("Solid - Simple color")
-      bgPickerAlert.addAction("Gradient - Based on current time")
-      bgPickerAlert.addCancelAction("Cancel")
+      bgPickerAlert.title = "Bearbeite Hintergrund Modus"
+      bgPickerAlert.message = "Gerade eingestellt zu " + prevData.bgmode + "."
+      bgPickerAlert.addAction("Fixed - Ein Hintergrund")
+      bgPickerAlert.addAction("Auto - Zwei Wallpaperr")
+      bgPickerAlert.addAction("Solid - Eingache Farbe")
+      bgPickerAlert.addAction("Gradient - Basiert auf der Zeit")
+      bgPickerAlert.addCancelAction("Abbrechen")
       let response = await bgPickerAlert.present()
       if(response == 0) { prevData.bgmode = "fixed" }
       else if(response == 1) { prevData.bgmode = "auto" }
@@ -392,14 +344,14 @@ for(title in prevData){
       if(prevData.bgmode == "fixed" || prevData.bgmode == "auto") {
         prevData.bglight = await DocumentPicker.openFile()
         let bgPickerAlert = new Alert()
-        bgPickerAlert.title = "Light Wallpaper"
-        bgPickerAlert.message = "Successfully saved your wallpaper!"
+        bgPickerAlert.title = "Helles Hintergrundbild"
+        bgPickerAlert.message = "Dein Hintergrundbild wurde erfolgreich gespeichert!"
         bgPickerAlert.addAction("OK")
         await bgPickerAlert.present()
       } else {
         let bgPickerAlert = new Alert()
-        bgPickerAlert.title = "Light Wallpaper"
-        bgPickerAlert.message = "You can edit this area\nif you're in fixed / auto mode."
+        bgPickerAlert.title = "Helles Hintergrundbild"
+        bgPickerAlert.message = "Du kannst diesen Bereich ändern\nwenn du in fixed / auto mode bist."
         bgPickerAlert.addAction("OK")
         await bgPickerAlert.present()
       }
@@ -407,14 +359,14 @@ for(title in prevData){
       if(prevData.bgmode == "auto") {
         prevData.bgdark = await DocumentPicker.openFile()
         let bgPickerAlert = new Alert()
-        bgPickerAlert.title = "Dark Wallpaper"
-        bgPickerAlert.message = "Successfully saved your wallpaper!"
+        bgPickerAlert.title = "Dunkles Hintergrundbild"
+        bgPickerAlert.message = "Dein Hintergrundbild wurde erfolgreich gespeichert!"
         bgPickerAlert.addAction("OK")
         await bgPickerAlert.present()
       } else {
         let bgPickerAlert = new Alert()
-        bgPickerAlert.title = "Dark Wallpaper"
-        bgPickerAlert.message = "You can edit this area if you're in auto mode."
+        bgPickerAlert.title = "Dunkles Hintergrundbild"
+        bgPickerAlert.message = "Du kannst diesen Bereich ändern wenn du in auto mode bist."
         bgPickerAlert.addAction("OK")
         await bgPickerAlert.present()
       }
