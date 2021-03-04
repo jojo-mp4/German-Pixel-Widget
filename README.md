@@ -20,6 +20,7 @@ Das iOS Scriptable Widget, inspiriert von Google Pixel's "at a Glance" Widget.
 - Einfaches Anpassen des Widgets mit dem Pixel Launcher
 - Und mehr!
 
+
 **Neu in Version 2.0:**
 
 - das Widget funktioniert jetzt auch komplett offline!
