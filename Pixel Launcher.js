@@ -5,7 +5,7 @@
 // Contact developer for question, or reporting abuse
 // You can use Discord to contact @unvsDev!
 
-// German Fork by jojo-mp4 v1.5
+// German Fork by jojo-mp4 v2.0
 
 const version = 2.3
 const plName = Script.name()
@@ -19,7 +19,7 @@ var progPath = fm.joinPath(fDir, "plPlugin.txt")
 
 fm.writeString(namePath, JSON.stringify({"name":plName, "update":"false"}))
 
-var defaultJSON = {"apikey":"openweatherapikey","cityid":"1835848","layout":"pixel","username":"Sir","tempunit":"metric","locale":"de","textcolor":"#ffffff","textsize":"23","iconcolor":"default","iconsize":"27","font":"Product Sans","fontbold":"Product Sans Medium","spacing":"45","previewmode":"true","previewsize":"medium","refreshview":"false","greeting1":"Guten Morgen","greeting2":"Guten Nachmittag","greeting3":"Guten Abend","greeting4":"Gute Nacht","greeting5":"Zeit zu schlafen","greeting0":"Willkommen beim Pixel Widget","dateformat":"EEEE, dd. MMMM","quotemode":"false","bgmode":"solid","bglight":"null","bgdark":"null","bgcolor":"#147158","iconrefresh":"true","wallrefresh":"true","refreshrate":"90","ddaymode":"false","ddayname":"Weihnachten","ddaytarg":"2021-12-24","hideb":"false","event":"true"}
+var defaultJSON = {"apikey":"openweatherapikey","cityid":"1835848","layout":"siri","username":"Sir","tempunit":"metric","locale":"de","textcolor":"#ffffff","textsize":"23","iconcolor":"default","iconsize":"27","font":"Product Sans","fontbold":"Product Sans Medium","spacing":"45","previewmode":"true","previewsize":"medium","refreshview":"false","greeting1":"Guten Morgen","greeting2":"Guten Nachmittag","greeting3":"Guten Abend","greeting4":"Gute Nacht","greeting5":"Zeit zu schlafen","greeting0":"Willkommen beim Pixel Widget","dateformat":"EEEE, dd. MMMM","quotemode":"false","bgmode":"solid","bglight":"null","bgdark":"null","bgcolor":"#147158","iconrefresh":"true","wallrefresh":"true","refreshrate":"90","ddaymode":"false","ddayname":"Weihnachten","ddaytarg":"2021-12-24","hideb":"false","event":"true"}
 
 var optionName = {
   "apikey": "Openweather API Key",
@@ -28,16 +28,16 @@ var optionName = {
   "username": "Benutzername",
   "tempunit": "Temperatureinheit",
   "locale": "Standort",
-  "textcolor": "Text Farbe",
-  "textsize": "Text Größe",
-  "iconcolor": "Symbol Farbe",
-  "iconsize": "Symbol Größe",
+  "textcolor": "Farbe des Textes",
+  "textsize": "Größe des Textes",
+  "iconcolor": "Farbe der Symbole",
+  "iconsize": "Größe der Symbole",
   "font": "Schriftart",
   "fontbold": "fette Schriftart",
   "spacing": "obere Leerzeile",
-  "previewmode": "Widget Vorschau",
-  "previewsize": "Widget Vorschau größe",
-  "refreshview": "RefreshView",
+  "previewmode": "Vorschau des Widgets",
+  "previewsize": "Größe der Widget Vorschau",
+  "refreshview": "letzte Aktualisierung",
   "greeting1": "Morgen Begrüßung",
   "greeting2": "Nachmittag Begrüßung",
   "greeting3": "Abend Begrüßung",
@@ -66,10 +66,10 @@ var optionFormat = {
   "layout": "(pixel, siri)",
   "username": "Name für die Begrüßung",
   "tempunit": "(metric, imperial)",
-  "locale": "Für sprachliche Anpassung",
-  "textcolor": "(auto, or Color Hex Code)",
+  "locale": "Für sprachliche Anpassung (de, en)",
+  "textcolor": "(auto, oder Color Hex Code)",
   "textsize": "(Zahl)",
-  "iconcolor": "(auto, default, or Color Hex Code)",
+  "iconcolor": "(auto, default, oder Color Hex Code)",
   "iconsize": "(Zahl)",
   "font": "(Schriftart Name)",
   "fontbold": "(Schriftart Name)",
@@ -83,9 +83,9 @@ var optionFormat = {
   "greeting4": "(String) - 22 Uhr ~ 23 Uhr",
   "greeting5": "(String) - 24 Uhr ~ 4 Uhr",
   "greeting0": "(String) - Wird angezeigt wenn feste Begrüßung = true",
-  "dateformat": "(Date Format) - show date",
+  "dateformat": "(Date Format) - zeige Datum",
   "quotemode": "(true, false) - zeige feste Begrüßunge",
-  "bgmode": "(auto, fixed, solid, or gradient)",
+  "bgmode": "(auto, fixed, solid, oder gradient)",
   "bglight": "für fixed & auto mode",
   "bgdark": "für auto mode",
   "bgcolor": "(Color Hex Code) - solid mode",
@@ -237,7 +237,7 @@ if(settingmode){
   
      const option4 = new UITableRow()
      option4.dismissOnSelect = false
-     option4.addText("Widget Version 1.5 (tippe um Github zu öffnen)")
+     option4.addText("Widget Version 2.0 (tippe um Github zu öffnen)")
      settings.addRow(option4)
   
      option4.onSelect = () => {
