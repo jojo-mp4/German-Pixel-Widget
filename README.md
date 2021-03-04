@@ -21,9 +21,10 @@ Das iOS Scriptable Widget, inspiriert von Google Pixel's "at a Glance" Widget.
 - Und mehr!
 
 **Neu in Version 2.0:**
--das Widget funktioniert jetzt auch komplett offline!
--weitere Anpassung bei der Sprache
--sei gespannt auf weitere Updates 😄
+
+- das Widget funktioniert jetzt auch komplett offline!
+- weitere Anpassung bei der Sprache und den Einstellungen
+- sei gespannt auf weitere Updates 😄
 
 ## Einrichtung
 Zuerst musst du Scriptable aus dem AppStore herunterladen (https:\/\/apps.apple.com\/de\/app\/scriptable\/id1405459188). Danach kopierst du jeweils den Code "Pixel Launcher" und den "Pixel Widget" in ein neues Script in Scriptable. Als nächstes tippst du auf den Haupt-Code "Pixel Launcher", um den Code auszuführen. Drücke dann auf den Button "Widget anpassen" und folge den Schritten auf den Bildern:
