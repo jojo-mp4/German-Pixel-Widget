@@ -4,6 +4,8 @@
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109340922-eee7cd00-7869-11eb-847e-62ec5819d84b.png">
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109340946-f6a77180-7869-11eb-8f2b-94161738ec4f.png">
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109340954-f909cb80-7869-11eb-8d58-ad937e833254.png">
+<img width="233" src="https://user-images.githubusercontent.com/75497322/110032109-104c2b80-7d38-11eb-932b-2ca71cc66936.png">
+<img width="233" src="https://User-images.githubusercontent.com/75497322/110032139-16420c80-7d38-11eb-84a4-350106f275ba.png">
 </div>
 
 Das iOS Scriptable Widget, inspiriert von Google Pixel's "at a Glance" Widget.
@@ -17,6 +19,11 @@ Das iOS Scriptable Widget, inspiriert von Google Pixel's "at a Glance" Widget.
 - Countdown zu einem bestimmten Datum
 - Einfaches Anpassen des Widgets mit dem Pixel Launcher
 - Und mehr!
+
+**Neu in Version 2.0:**
+-das Widget funktioniert jetzt auch komplett offline!
+-weitere Anpassung bei der Sprache
+-sei gespannt auf weitere Updates 😄
 
 ## Einrichtung
 Zuerst musst du Scriptable aus dem AppStore herunterladen (https:\/\/apps.apple.com\/de\/app\/scriptable\/id1405459188). Danach kopierst du jeweils den Code "Pixel Launcher" und den "Pixel Widget" in ein neues Script in Scriptable. Als nächstes tippst du auf den Haupt-Code "Pixel Launcher", um den Code auszuführen. Drücke dann auf den Button "Widget anpassen" und folge den Schritten auf den Bildern:
