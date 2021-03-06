@@ -30,29 +30,29 @@ Das iOS Scriptable Widget, inspiriert von Google Pixel's "at a Glance" Widget.
 
 ## Einrichtung
 Zuerst musst du Scriptable aus dem AppStore herunterladen (https:\/\/apps.apple.com\/de\/app\/scriptable\/id1405459188). Danach kopierst du jeweils den Code "Pixel Launcher" und den "Pixel Widget" in ein neues Script in Scriptable. Als nächstes tippst du auf den Haupt-Code "Pixel Launcher", um den Code auszuführen. Drücke dann auf den Button "Widget anpassen" und folge den Schritten auf den Bildern:
-
+<br>
 <div>
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109343236-4e93a780-786d-11eb-87ca-9223e6979b72.png">
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109397857-486afd00-7939-11eb-8cb6-5d1dc10938b2.png">
 </div>
-
-
+<br>
 
 - **1:** dein  **API key** von https://openweathermap.org/
 - **2:** deine **City ID** von https://openweathermap.org/
 - **3:** dein **Namen** (für die Begrüßung)
 
-
-
+<br>
 
 Danach musst du noch ein Profil für die Schriftart installieren:
 
+<br>
 <div>
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109345180-0b870380-7870-11eb-9e84-ad8a206f8b3a.png">
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109397879-72bcba80-7939-11eb-9cc8-aa7fbf04265d.png">
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109346401-ed220780-7871-11eb-999a-6891a9c59686.png">
 <img width="233" src="https://user-images.githubusercontent.com/75497322/109345210-16419880-7870-11eb-9b3b-c597aa078b33.png">
-</div> <br>
+</div> 
+<br>
 
 Nachdem du das erlegt hast ist dein neues Widget soweit fertig 😄!
 
